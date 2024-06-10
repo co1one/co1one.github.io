@@ -34,7 +34,7 @@
         </div>
         <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
             <div class="details">
-                <strong>Beijing Academy of Artificial Intelligence</strong><br>
+                <strong>BAAI</strong><br>
                 Period 2<br>
                 <em>Research topic: LLM agent</em><br>
                 Advised by: <a href="https://tellarin.com/borje/">Börje F. Karlsson</a>
@@ -47,7 +47,7 @@
         </div>
         <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
             <div class="details">
-                <strong>Beijing Academy of Artificial Intelligence</strong><br>
+                <strong>BAAI</strong><br>
                 Period 1<br>
                 <em>Research topic: EMG</em><br>
                 Advised by: <a href="https://ieeexplore.ieee.org/author/37085440868">Siwei Dong</a>, 

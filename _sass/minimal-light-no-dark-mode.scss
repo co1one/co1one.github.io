@@ -160,7 +160,8 @@ papertitle {
     }
 
     .image.avatar {
-      border-radius: 100%;
+      // border-radius: 100%;
+      border-radius: 0; //头像不要圆角
     }
 
       .image.avatar:before {
@@ -168,8 +169,9 @@ papertitle {
       }
 
       .image.avatar img {
-        border-radius: 100%;
-        width: 45%;
+        // border-radius: 100%;
+        border-radius: 0; //头像不要圆角
+        width: 70%; //修改头像尺寸
         padding: 20px;
         // border: 1px solid #ddd;
         // padding: 3px;
