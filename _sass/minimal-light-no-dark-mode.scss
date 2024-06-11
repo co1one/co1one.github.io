@@ -422,8 +422,9 @@ footer {
 
 
    .image.avatar img {
-        border-radius: 100%;
-        width: 117px;
+        // border-radius: 100%;
+        border-radius: 0; //头像不要圆角
+        width: 160px;
         padding:20px;
       }
   #head1o2 {
@@ -478,8 +479,9 @@ footer {
   }
 
   .image.avatar img {
-      border-radius: 100%;
-      width: 95px;
+      // border-radius: 100%;
+      border-radius: 0; //头像不要圆角
+      width: 160px;
       padding:20px;
   }
   #head1o2 {
