@@ -25,4 +25,6 @@ I also play basketball and hit the gym a lot (but not really since been an resea
 
 <!-- {% include_relative _includes/services.md %} -->
 
+{% include_relative _includes/projects.md %}
+
 {% include_relative _includes/experience.md %}
