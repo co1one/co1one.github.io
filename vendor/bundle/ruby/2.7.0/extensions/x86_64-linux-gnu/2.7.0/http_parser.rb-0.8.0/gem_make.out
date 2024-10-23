@@ -1,0 +1,19 @@
+current directory: /home/chaoyi/projects/code_20240923/personal_page/co1one.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/usr/bin/ruby2.7 extconf.rb
+creating Makefile
+
+current directory: /home/chaoyi/projects/code_20240923/personal_page/co1one.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20241023-29894-8hfszd sitelibdir\=./.gem.20241023-29894-8hfszd clean
+
+current directory: /home/chaoyi/projects/code_20240923/personal_page/co1one.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20241023-29894-8hfszd sitelibdir\=./.gem.20241023-29894-8hfszd
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /home/chaoyi/projects/code_20240923/personal_page/co1one.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20241023-29894-8hfszd sitelibdir\=./.gem.20241023-29894-8hfszd install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20241023-29894-8hfszd
+
+current directory: /home/chaoyi/projects/code_20240923/personal_page/co1one.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20241023-29894-8hfszd sitelibdir\=./.gem.20241023-29894-8hfszd clean

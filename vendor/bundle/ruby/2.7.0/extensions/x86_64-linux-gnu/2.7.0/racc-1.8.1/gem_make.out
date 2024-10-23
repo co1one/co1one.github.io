@@ -1,0 +1,18 @@
+current directory: /home/chaoyi/projects/code_20240923/personal_page/co1one.github.io/vendor/bundle/ruby/2.7.0/gems/racc-1.8.1/ext/racc/cparse
+/usr/bin/ruby2.7 extconf.rb
+creating Makefile
+
+current directory: /home/chaoyi/projects/code_20240923/personal_page/co1one.github.io/vendor/bundle/ruby/2.7.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241023-29894-6cwbnf sitelibdir\=./.gem.20241023-29894-6cwbnf clean
+
+current directory: /home/chaoyi/projects/code_20240923/personal_page/co1one.github.io/vendor/bundle/ruby/2.7.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241023-29894-6cwbnf sitelibdir\=./.gem.20241023-29894-6cwbnf
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/chaoyi/projects/code_20240923/personal_page/co1one.github.io/vendor/bundle/ruby/2.7.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241023-29894-6cwbnf sitelibdir\=./.gem.20241023-29894-6cwbnf install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20241023-29894-6cwbnf/racc
+
+current directory: /home/chaoyi/projects/code_20240923/personal_page/co1one.github.io/vendor/bundle/ruby/2.7.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241023-29894-6cwbnf sitelibdir\=./.gem.20241023-29894-6cwbnf clean

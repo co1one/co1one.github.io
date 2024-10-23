@@ -15,6 +15,22 @@ gem "minima", "~> 2.0"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", group: :jekyll_plugins
+# gem "github-pages", group: :jekyll_plugins
+gem "github-pages", "~> 209", group: :jekyll_plugins
+
+# gem "webrick", "~> 1.8"
+gem "nokogiri", "~> 1.12"
+gem "bundler", "~> 2.4.22"
+
 
 gem "webrick", "~> 1.8"
+
+gem "faraday-retry", "~> 2.2"
+
+# gem "jekyll", "~> 4.2.0"
+gem "liquid", "~> 4.0.0"
+gem "jekyll-remote-theme"
+# gem "jekyll-sass-converter", "~> 2.1"
+gem "jekyll-feed", "~> 0.15"
+gem "jekyll-sass-converter", "1.5.2"
+

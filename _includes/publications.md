@@ -9,7 +9,7 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 350px; height: 100%;">
     {% endif %}
     {% if link.conference_short %} 
     <abbr class="badge">{{ link.conference_short }}</abbr>
@@ -33,9 +33,13 @@
       {% if link.bibtex %} 
       <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
       {% endif %}
-      {% if link.notes %} 
-      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
-      {% endif %}
+{% if link.notes %}
+  <div class="notes" style="margin-top: 5px;">
+    {% for note in link.notes %}
+      <strong><i style="color:#e74d3c">{{ note }}</i></strong><br> <!-- 分行显示每个 note -->
+    {% endfor %}
+  </div>
+{% endif %}
       {% if link.others %} 
       {{ link.others }}
       {% endif %}

@@ -3,7 +3,7 @@ title: Chaoyi Xu
 position: MSc Student 
 affiliation: (Applying for 25Fall and 26Fall Ph.D.)
 email: 305882771 (at) qq.com
-email2: co1 (at) bupt.edu.cn
+email2: chaoyi0027 (at) gmail.com
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -21,9 +21,9 @@ twitter: #https://twitter.com/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+avatar: ./assets/img/info/avatar.png
+favicon: ./assets/img/info/favicon.png
+favicon_dark: ./assets/img/info/favicon-dark.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
@@ -46,7 +46,12 @@ experience:
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-remote_theme: yaoyao-liu/minimal-light
+#remote_theme: yaoyao-liu/minimal-light
+#theme: "./_theme"
+theme: null
+include:
+  - _theme
+
 
 # The following files will be removed from the generated website.
 exclude:
@@ -59,5 +64,6 @@ exclude:
   - LICENSE
   - minimal-light.gemspec
   - html_source_file/
+  - vendor
 
 github: [metadata]

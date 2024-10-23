@@ -1,22 +1,104 @@
 main:
 
-  # - title: test
-  #   authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-  #   conference_short: MICCAI
-  #   conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-  #   pdf: https://arxiv.org/pdf/2306.00988.pdf
-  #   code: https://github.com/MrGiovanni/ContinualLearning
-  #   bibtex: https://bib.yliu.me/MICCAI23.txt
-  #   image: ./assets/img/teaser_example_2.png
-  #   notes: Early Accept
 
-  # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-  #   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-  #   conference_short: CVPR
-  #   conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-  #   pdf: https://arxiv.org/pdf/2002.10211.pdf
-  #   code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-  #   page: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   notes: Oral Presentation
-  #   image: ./assets/img/teaser_example.png
+  - title: "Simulately: Handy information and resources for physics simulators for robot learning research"
+    authors:
+      - name: Haoran Geng
+      - name: Yuyang Li
+      - name: Yuzhe Qin
+      - name: Ran Gong
+      - name: Wensi Ai
+      - name: Yuanpei Chen
+      - name: Puhao Li
+      - name: Junfeng Ni
+      - name: Zhou Xian
+      - name: Songlin Wei
+      - name: Yang You
+      - name: Yufei Ding
+      - name: Jialiang Zhang
+      - name: <strong>Chaoyi Xu</strong>
+    time: 2023
+    pdf: https://simulately.wiki/
+    overview: Simulately is a project where we gather useful information of robotics & physics simulators for cutting-edge robot learning research.
+    image: ./assets/img/projects/simulately.png
+#    links:
+#      website: https://simulately.wiki/
+#      github: https://github.com/geng-haoran/Simulately
+    notes:
+      - Open-source Project
+      - Selected into CMU 16-831
+
+
+  - title: "Silent Speech Interface"
+    authors:
+      - name: Yemin Shi
+        url:
+      - name: Siwei Dong
+        url:
+      - name: Yu Shu
+        url:
+      - name: Wenhao Huang
+        url:
+      - name: <strong>Chaoyi Xu</strong>
+        url: https://co1one.github.io/
+    time: 2022
+    project: EMG-based Silent Speech Interface for ALS Patients
+#    patent: https://xueshu.baidu.com/usercenter/paper/show?paperid=130f02q0bb460v509w1j0gg0ft239769&site=xueshu_se
+    pdf: https://xueshu.baidu.com/usercenter/paper/show?paperid=130f02q0bb460v509w1j0gg0ft239769&site=xueshu_se
+    overview: A facial EMG signal acquisition device designed for ALS patients to capture muscle activity during speech and an algorithm to reconstruct speech from EMG signals.
+    image: ./assets/img/projects/emg2.png
+    notes:
+
+  - title: "Autonomous Medicine Delivery Robot"
+    authors:
+      - name: <strong>Chaoyi Xu†</strong>
+        url: https://co1one.github.io/
+        role: Team Leader
+      - name: Yihang Ma
+      - name: Jintao Jiang
+#    time: 2021
+    competition: Jiangsu Division of 2021 National College Students Electronic Design Competition of TI Cup
+    award: First Prize
+    overview: An autonomous robot with visual line tracking, ward number recognition, load detection, and automatic round-trip navigation for medicine delivery between hospital pharmacy and wards.
+    image: ./assets/img/projects/tiny_car.png
+    pdf: ./assets/img/projects/2021.pdf
+    notes:
+
+  - title: "Wireless Motion Sensor Node Design"
+#    authors: <strong>Chaoyi Xu*</strong>, Min Yang, Zhiwei Yuan (*Team Leader)
+    authors:
+      - name: <strong>Chaoyi Xu†</strong>
+        url: https://co1one.github.io/
+        role: Team Leader
+      - name: Min Yang
+      - name: Zhiwei Yuan
+#    time: 2020
+    competition: 2020 Jiangsu TI Cup College Student Electronic Design Competition
+    award: First Prize
+    overview: A wireless motion sensor node using the ADS1292 and LMT70 chips for real-time ECG, temperature, and motion tracking, with low-latency data transmission to mobile devices.
+    image: ./assets/img/projects/ecg2.png
+    pdf: ./assets/img/projects/2020.pdf
+    notes:
+
+
+
+#   - title: test
+#     authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
+#     conference_short: MICCAI
+#     conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
+#     pdf: https://arxiv.org/pdf/2306.00988.pdf
+#     code: https://github.com/MrGiovanni/ContinualLearning
+#     bibtex: https://bib.yliu.me/MICCAI23.txt
+#     image: ./assets/img/teaser_example_2.png
+#     notes: Early Accept
+#
+#   - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
+#     authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+#     conference_short: CVPR
+#     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
+#     pdf: https://arxiv.org/pdf/2002.10211.pdf
+#     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+#     page: https://class-il.mpi-inf.mpg.de/mnemonics/
+#     bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+#     notes: Oral Presentation
+#     image: ./assets/img/teaser_example.png

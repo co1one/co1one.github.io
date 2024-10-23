@@ -1,0 +1,19 @@
+current directory: /home/chaoyi/projects/code_20240923/personal_page/co1one.github.io/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/bin/ruby2.7 extconf.rb
+creating Makefile
+
+current directory: /home/chaoyi/projects/code_20240923/personal_page/co1one.github.io/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20241023-29894-1q64o4j sitelibdir\=./.gem.20241023-29894-1q64o4j clean
+
+current directory: /home/chaoyi/projects/code_20240923/personal_page/co1one.github.io/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20241023-29894-1q64o4j sitelibdir\=./.gem.20241023-29894-1q64o4j
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/chaoyi/projects/code_20240923/personal_page/co1one.github.io/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20241023-29894-1q64o4j sitelibdir\=./.gem.20241023-29894-1q64o4j install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20241023-29894-1q64o4j
+
+current directory: /home/chaoyi/projects/code_20240923/personal_page/co1one.github.io/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20241023-29894-1q64o4j sitelibdir\=./.gem.20241023-29894-1q64o4j clean

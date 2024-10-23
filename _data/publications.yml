@@ -1,14 +1,58 @@
 main:
+  - title: "QuadWBG: Generalizable Quadrupedal Whole-Body Grasping"
+    authors: Jilong Wang∗, Javokhirbek Rajabov∗, <strong>Chaoyi Xu</strong>, Yiming Zheng, He Wang
+    conference_short:
+    #    conference: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    pdf:
+    code:
+    image: ./assets/img/publications/wholebody.png
+    notes: under review
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+
+
+  - title: "Open6DOR: Benchmarking Open-instruction 6-DoF Object Rearrangement and A VLM-based Approach"
+    authors: Yufei Ding*, Haoran Geng*, <strong>Chaoyi Xu</strong>, Xiaomeng Fang, Jiazhao Zhang, Qiyu Dai, Songlin Wei, Zhizheng Zhang, He Wang
+    conference_short: IROS 2024
+#    conference: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    pdf:
+    code: https://github.com/Selina2023/Open6DOR
+    image: ./assets/img/publications/open6dor.jpg
+    notes:
+      - Oral Presentation at IROS 2024
+      - Oral Presentation at CVPR 2024 @ VLADA
+      - Spotlight Presentation at ICRA 2024 @ 3D Manipulation
+#    overview: We present Open6DOR, a challenging and comprehensive benchmark for open-instruction 6-DoF object rearrangement tasks. Following this, we propose a zero-shot method, Open6DORGPT, which achieves SOTA performance and proves effective in demanding simulation environments and real-world scenarios.
+
+
+  - title: "GAMMA: Graspability-Aware Mobile MAnipulation Policy Learning based on Online Grasping Pose Fusion"
+    authors: Jiazhao Zhang*, Nandiraju Gireesh*, Jilong Wang, Xiaomeng Fang, <strong>Chaoyi Xu</strong>, Weiguang Chen, Liu Dai, He Wang
+    conference_short: ICRA 2024
+#    conference: 2024 IEEE International Conference on Robotics and Automation
+    pdf: https://arxiv.org/pdf/2309.15459
+    code: https://github.com/user432/gamma
+    image: ./assets/img/publications/2023_gamma.gif
+#    notes: CCF B
+
+
+  - title: "A Survey on Game Playing Agents and Large Models: Methods, Applications, and Challenges"
+    authors: Xinrun Xu*, Yuxin Wang, <strong>Chaoyi Xu</strong>, Ziluo Ding, Jiechuan Jiang, Zhiming Ding, Börje F Karlsson
+    conference_short: arXiv 2024
+#    conference: arXiv preprint, 2024.
+    pdf: https://arxiv.org/pdf/2403.10249
+    code: https://github.com/BAAI-Agents/GPA-LM
+    image: ./assets/img/publications/agent_gp.png
+#    notes: Preprint
+
+
+  #  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
+#    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
+#    conference_short: MICCAI
+#    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
+#    pdf: https://arxiv.org/pdf/2306.00988.pdf
+#    code: https://github.com/MrGiovanni/ContinualLearning
+#    bibtex: https://bib.yliu.me/MICCAI23.txt
+#    image: ./assets/img/teaser_example_2.png
+#    notes: Early Accept
 
   # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
   #   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
