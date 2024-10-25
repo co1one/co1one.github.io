@@ -1,6 +1,6 @@
 main:
   - title: "QuadWBG: Generalizable Quadrupedal Whole-Body Grasping"
-    authors: Jilong Wang∗, Javokhirbek Rajabov∗, <strong>Chaoyi Xu</strong>, Yiming Zheng, He Wang
+    authors: Jilong Wang*, Javokhirbek Rajabov*, <strong>Chaoyi Xu</strong>, Yiming Zheng, He Wang
     conference_short:
     #    conference: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems
     pdf:
