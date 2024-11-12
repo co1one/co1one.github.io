@@ -3,7 +3,8 @@ main:
     authors: Jilong Wang*, Javokhirbek Rajabov*, <strong>Chaoyi Xu</strong>, Yiming Zheng, He Wang
     conference_short:
     #    conference: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems
-    pdf:
+    pdf: https://arxiv.org/pdf/2411.06782
+    page: https://quadwbg.github.io/
     code:
     image: ./assets/img/publications/wholebody.png
     notes: under review
@@ -15,6 +16,7 @@ main:
     conference_short: IROS 2024
 #    conference: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems
     pdf:
+    page: https://pku-epic.github.io/Open6DOR/
     code: https://github.com/Selina2023/Open6DOR
     image: ./assets/img/publications/open6dor.jpg
     notes:
@@ -29,6 +31,7 @@ main:
     conference_short: ICRA 2024
 #    conference: 2024 IEEE International Conference on Robotics and Automation
     pdf: https://arxiv.org/pdf/2309.15459
+    page: https://pku-epic.github.io/GAMMA/
     code: https://github.com/user432/gamma
     image: ./assets/img/publications/2023_gamma.gif
 #    notes: CCF B
