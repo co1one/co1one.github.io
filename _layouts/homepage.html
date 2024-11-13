@@ -53,6 +53,9 @@
         <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
         <br>
         {% endif %}
+        {% if site.wechat %}
+          WeChat: <span>{{ site.wechat }}</span><br>
+        {% endif %}
         {% if site.email %}
         <email>{{ site.email }}</email><br>
         <email>{{ site.email2 }}</email>
