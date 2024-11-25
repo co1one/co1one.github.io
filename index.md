@@ -3,7 +3,10 @@ layout: homepage
 ---
 ## About Me
 
-I am currently a research intern at <a target="_blank" href="https://hughw19.github.io/">PKU EPIC Lab</a> and <a href="http://www.galbot.com/">Galbot</a> advised by <a href="https://github.com/42jaylonw">Jaylon Wang</a> and Prof. <a target="_blank" href="https://hughw19.github.io/">He Wang</a>. <br><br>
+I am currently a research intern at <a target="_blank" href="https://hughw19.github.io/">PKU EPIC Lab</a> and <a href="http://www.galbot.com/">Galbot</a> 
+advised by Prof. <a target="_blank" href="https://hughw19.github.io/">He Wang</a>
+and collaborating with <a target="_blank" href="https://user432.github.io/">Gireesh Nandiraju</a>
+. <br><br>
 <!-- I am currently a third-year graduate student at Beijing University of Posts and Telecommunications. I obtained my bachelor's degree from Nanjing Tech University. -->
 I may started from the bottom, but now I'm... well, still on my way up (slowly) ! And I really enjoy the journey on this (tough) way. 
 I also play basketball and hit the gym a lot (but not really since becoming a research intern).
