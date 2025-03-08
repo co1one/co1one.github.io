@@ -8,6 +8,9 @@ unset http_proxy
 unset https_proxy
 
 bundle exec jekyll server
+or
+bundle exec jekyll serve --no-watch
+
 ```
 
  

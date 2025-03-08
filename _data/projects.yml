@@ -1,5 +1,16 @@
 main:
 
+  - title: "Teleoperation with GELLO"
+    time: 2025
+    overview: A reproduction of the open-source GELLO project for real-time teleoperation of the Franka robot. The system ensures sim-to-real synchronization, enabling real-time collision and safety monitoring in simulation before execution in the real world.
+    image: ./assets/img/projects/teleop_gello.gif
+    notes:
+
+  - title: "Teleoperation with Smartphone"
+    time: 2025
+    overview: A teleoperation system leveraging smartphone sensor signals. Motion sensors control the end-effector's orientation, while on-screen buttons manage translation, enabling an intuitive control experience.
+    image: ./assets/img/projects/teleop_smartphone.gif
+    notes:
 
   - title: "Simulately: Handy information and resources for physics simulators for robot learning research"
     authors:

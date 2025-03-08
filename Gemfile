@@ -17,6 +17,7 @@ gem "minima", "~> 2.0"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
 gem "github-pages", "~> 209", group: :jekyll_plugins
+gem "pathutil", "0.16.1"
 
 # gem "webrick", "~> 1.8"
 gem "nokogiri", "~> 1.12"
