@@ -1,4 +1,9 @@
 main:
+  - title: "PalBot, your best pal!"
+    time: 2025
+    overview: My first product! A fully self-developed desktop dual-arm companion robot. It supports grasping, navigation, visual tracking, and a full speech pipeline (ASR & TTS), powered by an emotionally aware agent framework.
+    image: ./assets/img/projects/palbot.png
+    notes:
 
   - title: "Teleoperation with GELLO"
     time: 2025

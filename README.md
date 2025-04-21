@@ -13,6 +13,9 @@ bundle exec jekyll serve --no-watch
 
 ```
 
+if you want to add new feature, add in publications.yml first, 
+then add an if in _includes/publications.md
+at last, make sure homepage.html calls the publications.md in a right way
  
 *This is the source code of my homepage. I build this website based on [minimal](https://github.com/orderedlist/minimal).*
 <br>

@@ -12,9 +12,21 @@ I also play basketball and hit the gym a lot (but not really since becoming a re
 
 I have extensive experience collaborating with international teams, am fluent in English, and am enthusiastic about connecting with peers for academic exchange, as well as exploring new research and career opportunities.
 It would be my great honor to treat you to a coffee or a beer for an engaging face-to-face conversation! ☕🍻
-## Research Interests
 
-I am passionate about exploring innovative technologies in **robotics**, artificial intelligence, and healthcare, particularly those with potential for **real-world implementation** and **societal benefit**.
+[//]: # (## Research Interests)
+
+[//]: # ()
+[//]: # (I am passionate about exploring innovative technologies in **robotics**, artificial intelligence, and healthcare, particularly those with potential for **real-world implementation** and **societal benefit**.)
+
+## News
+
+I am <span style="color:red;">hiring</span> self-motivated students for well-paid internships in mobile dexterous manipulation and embedded systems, hosted at <a href="https://www.baai.ac.cn/en/" target="_blank">BAAI</a>. If you're interested, especially as an international student, feel free to contact me!
+
+[//]: # (<p style="color:red;">)
+
+[//]: # (...)
+
+[//]: # (</p>)
 
 <!-- ## News -->
 
