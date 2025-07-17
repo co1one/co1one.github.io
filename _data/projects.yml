@@ -1,4 +1,10 @@
 main:
+  - title: "Teleoperation with Unitree G1"
+    time: 2025
+    overview: Built a full-body humanoid teleoperation system by integrating the Homie exoskeleton with a custom 2-DOF head. The system enables real-time mapping of human upper-body motion to a humanoid robot, supporting head-aligned visual feedback and intuitive control.
+    image: ./assets/img/projects/g1_teleop.gif
+    notes:
+
   - title: "PalBot, your best pal!"
     time: 2025
     overview: Built in just one week during a hackathon, this is my first fully self-developed desktop dual-arm companion robot. It supports grasping, navigation, visual tracking, and a full speech pipeline (ASR & TTS), powered by an emotionally aware agent framework.
