@@ -2,7 +2,7 @@ main:
   - title: "Teleoperation with Unitree G1"
     time: 2025
     overview: Built a full-body humanoid teleoperation system by integrating the Homie exoskeleton with a custom 2-DOF head. The system enables real-time mapping of human upper-body motion to a humanoid robot, supporting head-aligned visual feedback and intuitive control.
-    image: ./assets/img/projects/g1_teleop.gif
+    image: ./assets/img/projects/g1_teleop2.gif
     notes:
 
   - title: "PalBot, your best pal!"
