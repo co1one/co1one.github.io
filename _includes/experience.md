@@ -1,5 +1,19 @@
 <h2 id="experience" style="margin: 2px 0px 20px;">Experience</h2>
 <div class="experience">
+        <div class="pub-row" style="margin-bottom: 10px;">
+        <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px; text-align: center; width: 200px;">
+            <img src="assets/img/info/beingbeyond.png" alt="BeingBeyond Logo" style="height:70px; object-fit: contain;">
+        </div>
+        <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
+            <div class="details">
+                <strong>BeingBeyond</strong><br>
+                Period 1<br>
+                <em>Research topic: Manipulation</em><br>
+                Advised by: <a href="https://yhqpkueecs.github.io/">Haoqi Yuan</a>, 
+                            <a href="https://z0ngqing.github.io/">Zongqing Lu</a>
+            </div>
+        </div>
+    </div>
     <div class="pub-row" style="margin-bottom: 10px;">
         <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px; text-align: center; width: 200px;">
             <img src="assets/img/info/galbot.png" alt="GALBOT Logo" style="height:70px; object-fit: contain;">

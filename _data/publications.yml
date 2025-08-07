@@ -1,4 +1,15 @@
 main:
+  - title: "Being-H0: Vision-Language-Action Pretraining from Large-Scale Human Videos"
+    authors: Hao Luo*, Yicheng Feng*, Wanpeng Zhang*, Sipeng Zheng*, Ye Wang, Haoqi Yuan, Jiazheng Liu, <strong>Chaoyi Xu</strong>, Qin Jin, Zongqing Lu†
+    conference_short: arXiv 2025
+    #    conference: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    pdf: https://arxiv.org/pdf/2507.15597
+    page: https://beingbeyond.github.io/Being-H0/
+    code: https://github.com/BeingBeyond/Being-H0
+    image: ./assets/img/publications/beingh0.png
+#    notes: RSS 2025
+
+
   - title: "RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning"
     authors: Haoran Geng*, Feishi Wang*, Songlin Wei*, Yuyang Li*, Bangjun Wang*, Boshi An*, Charlie Tianyue Cheng*, Haozhe Lou, Peihao Li, Yen-Jen Wang, Yutong Liang, Dylan Goetting, <strong>Chaoyi Xu</strong>, Haozhe Chen, Yuxi Qian, Yiran Geng, Jiageng Mao, Weikang Wan, Mingtong Zhang, Jiangran Lyu, Siheng Zhao, Jiazhao Zhang, Jialiang Zhang, Chengyang Zhao, Haoran Lu, Yufei Ding, Ran Gong, Yuran Wang, Yuxuan Kuang, Ruihai Wu, Baoxiong Jia, Carlo Sferrazza, Hao Dong, Siyuan Huang, Koushil Sreenath, Yue Wang†, Jitendra Malik†, Pieter Abbeel†
     conference_short: RSS 2025
@@ -12,13 +23,13 @@ main:
 
   - title: "DyWA: Dynamics-adaptive World Action Model for Generalizable Non-prehensile Manipulation"
     authors: Jiangran Lyu*, Ziming Li, Xuesong Shi, <strong>Chaoyi Xu</strong>, Yizhou Wang†, He Wang†
-    conference_short: arXiv 2025
+    conference_short: ICCV 2025
 #    conference:
     pdf: https://arxiv.org/pdf/2503.16806
     page: https://pku-epic.github.io/DyWA/
     code:
     image: ./assets/img/publications/dywa.gif
-#    notes: ICCV 2025
+    notes: ICCV 2025
 
 
   - title: "DUNE: Sim2Real Transfer for Depth-based Navigation in Unstructured Dynamic Indoor Environments"
