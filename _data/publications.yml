@@ -1,4 +1,25 @@
 main:
+
+  - title: "DemoGrasp: Universal Dexterous Grasping from a Single Demonstration"
+    authors:  Haoqi Yuan*, Ziye Huang*, Ye Wang, Chuan Mao, <strong>Chaoyi Xu</strong>, Zongqing Lu†
+    conference_short: arXiv 2025
+    #    conference: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    pdf: https://arxiv.org/pdf/2509.22149
+    page: https://beingbeyond.github.io/DemoGrasp/
+    code: https://github.com/BeingBeyond/DemoGrasp
+    image: ./assets/img/publications/demograsp.png
+#    notes: ICLR 2026
+
+  - title: "DemoHLM: From One Demonstration to Generalizable Humanoid Loco-Manipulation"
+    authors: Yuhui Fu*, Feiyang Xie*, <strong>Chaoyi Xu</strong>, Jing Xiong, Haoqi Yuan, Zongqing Lu†
+    conference_short: arXiv 2025
+    #    conference: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    pdf: https://arxiv.org/pdf/2510.11258
+    page: https://beingbeyond.github.io/DemoHLM/
+    code: https://github.com/BeingBeyond/DemoHLM
+    image: ./assets/img/publications/demohlm.png
+  #    notes: RAL 2026
+
   - title: "Being-H0: Vision-Language-Action Pretraining from Large-Scale Human Videos"
     authors: Hao Luo*, Yicheng Feng*, Wanpeng Zhang*, Sipeng Zheng*, Ye Wang, Haoqi Yuan, Jiazheng Liu, <strong>Chaoyi Xu</strong>, Qin Jin, Zongqing Lu†
     conference_short: arXiv 2025
@@ -8,7 +29,6 @@ main:
     code: https://github.com/BeingBeyond/Being-H0
     image: ./assets/img/publications/beingh0.png
 #    notes: RSS 2025
-
 
   - title: "RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning"
     authors: Haoran Geng*, Feishi Wang*, Songlin Wei*, Yuyang Li*, Bangjun Wang*, Boshi An*, Charlie Tianyue Cheng*, Haozhe Lou, Peihao Li, Yen-Jen Wang, Yutong Liang, Dylan Goetting, <strong>Chaoyi Xu</strong>, Haozhe Chen, Yuxi Qian, Yiran Geng, Jiageng Mao, Weikang Wan, Mingtong Zhang, Jiangran Lyu, Siheng Zhao, Jiazhao Zhang, Jialiang Zhang, Chengyang Zhao, Haoran Lu, Yufei Ding, Ran Gong, Yuran Wang, Yuxuan Kuang, Ruihai Wu, Baoxiong Jia, Carlo Sferrazza, Hao Dong, Siyuan Huang, Koushil Sreenath, Yue Wang†, Jitendra Malik†, Pieter Abbeel†

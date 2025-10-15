@@ -1,4 +1,11 @@
 main:
+
+  - title: "BeingBeyond D1"
+    time: 2025
+    overview: I built the world’s first desktop robotic system combining dexterous hand, robotic arm, and active vision — built for seamless integration with advanced embodied AI algorithms.
+    image: ./assets/img/projects/d1_teleop.gif
+    notes: "<a href='https://youtu.be/XRCcJAU84yA' target='_blank'>Watch full video on YouTube</a>"
+
   - title: "Teleoperation with Unitree G1"
     time: 2025
     overview: Built a full-body humanoid teleoperation system by integrating the Homie exoskeleton with a custom 2-DOF head. The system enables real-time mapping of human upper-body motion to a humanoid robot, supporting head-aligned visual feedback and intuitive control.
