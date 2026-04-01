@@ -1,5 +1,11 @@
 main:
 
+  - title: "BeingBeyond U1"
+    time: 2026
+    overview: I built RealDexUMI to collect more dexterous manipulation data and enable zero-gap transfer across different robot bodies using the U1 end-effector.
+    image: ./assets/img/projects/dexumi.gif
+    notes: "<a href='https://www.youtube.com/watch?v=CkSxiHJFJw8' target='_blank'>Watch full video on YouTube</a>"
+
   - title: "BeingBeyond D1"
     time: 2025
     overview: I built the world’s first desktop robotic system combining dexterous hand, robotic arm, and active vision — built for seamless integration with advanced embodied AI algorithms.

@@ -31,8 +31,8 @@ rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(rubysitearchprefix)/vendor_ruby/$(ruby_version)
 vendorlibdir = $(vendordir)/$(ruby_version)
 vendordir = $(rubylibprefix)/vendor_ruby
-sitearchdir = $(DESTDIR)./.gem.20250308-18632-5900cj
-sitelibdir = $(DESTDIR)./.gem.20250308-18632-5900cj
+sitearchdir = $(DESTDIR)./.gem.20260401-80498-yzi7of
+sitelibdir = $(DESTDIR)./.gem.20260401-80498-yzi7of
 sitedir = $(DESTDIR)/usr/local/lib/site_ruby
 rubyarchdir = $(rubyarchprefix)/$(ruby_version)
 rubylibdir = $(rubylibprefix)/$(ruby_version)
@@ -84,11 +84,11 @@ debugflags = -ggdb3
 warnflags = -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable
 cppflags = 
 CCDLFLAGS = -fPIC
-CFLAGS   = $(CCDLFLAGS) -g -O2 -ffile-prefix-map=/build/ruby3.0-hqtKTz/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC $(ARCH_FLAG)
+CFLAGS   = $(CCDLFLAGS) -g -O2 -ffile-prefix-map=/build/ruby3.0-7pvE4I/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC $(ARCH_FLAG)
 INCFLAGS = -I. -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir)
 DEFS     = 
 CPPFLAGS = -DRACC_INFO_VERSION=1.8.1 -Wdate-time -D_FORTIFY_SOURCE=2 $(DEFS) $(cppflags)
-CXXFLAGS = $(CCDLFLAGS) -g -O2 -ffile-prefix-map=/build/ruby3.0-hqtKTz/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security $(ARCH_FLAG)
+CXXFLAGS = $(CCDLFLAGS) -g -O2 -ffile-prefix-map=/build/ruby3.0-7pvE4I/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security $(ARCH_FLAG)
 ldflags  = -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic
 dldflags = -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now 
 ARCH_FLAG = 

@@ -1,24 +1,44 @@
 main:
 
+  - title: "Being-H0.5: Scaling Human-Centric Robot Learning for Cross-Embodiment Generalization"
+    authors:  Hao Luo*, Ye Wang*, Wanpeng Zhang*, Sipeng Zheng*, Ziheng Xi, Chaoyi Xu, Haiweng Xu, Haoqi Yuan, Chi Zhang, Yiqing Wang, Yicheng Feng, Zongqing Lu†
+    conference_short: arXiv 2026
+    #    conference: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    pdf: https://arxiv.org/pdf/2601.12993
+    page: https://research.beingbeyond.com/being-h05
+    code: https://github.com/BeingBeyond/Being-H
+    image: ./assets/img/publications/beingh05_arch_nar.webp
+#    notes: arxiv 2026
+
+  - title: "UniTacHand: Unified Spatio-Tactile Representation for Human to Robotic Hand Skill Transfer"
+    authors:  Chi Zhang*, Penglin Cai*, Haoqi Yuan, <strong>Chaoyi Xu</strong>, Zongqing Lu†
+    conference_short: arXiv 2026
+    #    conference: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    pdf: https://arxiv.org/pdf/2512.21233
+    page: https://beingbeyond.github.io/UniTacHand/
+    code: https://github.com/BeingBeyond/UniTacHand
+    image: ./assets/img/publications/unitachandpipeline.jpg
+#    notes: arixv 2026
+
   - title: "DemoGrasp: Universal Dexterous Grasping from a Single Demonstration"
     authors:  Haoqi Yuan*, Ziye Huang*, Ye Wang, Chuan Mao, <strong>Chaoyi Xu</strong>, Zongqing Lu†
-    conference_short: arXiv 2025
+    conference_short: ICLR 2026
     #    conference: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems
     pdf: https://arxiv.org/pdf/2509.22149
     page: https://beingbeyond.github.io/DemoGrasp/
     code: https://github.com/BeingBeyond/DemoGrasp
     image: ./assets/img/publications/demograsp.png
-#    notes: ICLR 2026
+    notes: ICLR 2026
 
   - title: "DemoHLM: From One Demonstration to Generalizable Humanoid Loco-Manipulation"
     authors: Yuhui Fu*, Feiyang Xie*, <strong>Chaoyi Xu</strong>, Jing Xiong, Haoqi Yuan, Zongqing Lu†
-    conference_short: arXiv 2025
+    conference_short: RAL 2026
     #    conference: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems
     pdf: https://arxiv.org/pdf/2510.11258
     page: https://beingbeyond.github.io/DemoHLM/
     code: https://github.com/BeingBeyond/DemoHLM
     image: ./assets/img/publications/demohlm.png
-  #    notes: RAL 2026
+    notes: RAL 2026
 
   - title: "Being-H0: Vision-Language-Action Pretraining from Large-Scale Human Videos"
     authors: Hao Luo*, Yicheng Feng*, Wanpeng Zhang*, Sipeng Zheng*, Ye Wang, Haoqi Yuan, Jiazheng Liu, <strong>Chaoyi Xu</strong>, Qin Jin, Zongqing Lu†

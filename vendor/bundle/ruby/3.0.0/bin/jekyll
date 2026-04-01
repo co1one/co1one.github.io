@@ -22,7 +22,7 @@ if str
 end
 
 if Gem.respond_to?(:activate_bin_path)
-load Gem.activate_bin_path('jekyll', 'jekyll', version)
+  load Gem.activate_bin_path('jekyll', 'jekyll', version)
 else
 gem "jekyll", version
 load Gem.bin_path("jekyll", "jekyll", version)

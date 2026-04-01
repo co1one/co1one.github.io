@@ -11,6 +11,8 @@ bundle exec jekyll server
 or
 bundle exec jekyll serve --no-watch
 
+
+bundle exec jekyll serve --host 127.0.0.1 --port 4001
 ```
 
 if you want to add new feature, add in publications.yml first, 
