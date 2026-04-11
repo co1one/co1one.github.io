@@ -1,7 +1,7 @@
 main:
 
   - title: "Being-H0.5: Scaling Human-Centric Robot Learning for Cross-Embodiment Generalization"
-    authors:  Hao Luo*, Ye Wang*, Wanpeng Zhang*, Sipeng Zheng*, Ziheng Xi, Chaoyi Xu, Haiweng Xu, Haoqi Yuan, Chi Zhang, Yiqing Wang, Yicheng Feng, Zongqing Lu†
+    authors:  Hao Luo*, Ye Wang*, Wanpeng Zhang*, Sipeng Zheng*, Ziheng Xi, <strong>Chaoyi Xu</strong>, Haiweng Xu, Haoqi Yuan, Chi Zhang, Yiqing Wang, Yicheng Feng, Zongqing Lu†
     conference_short: arXiv 2026
     #    conference: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems
     pdf: https://arxiv.org/pdf/2601.12993
