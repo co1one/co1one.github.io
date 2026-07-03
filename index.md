@@ -3,7 +3,7 @@ layout: homepage
 ---
 ## About Me
 
-I am an incoming PhD student at the School of Computer Science, Peking University (Fall 2026).
+I am a PhD student at the School of Computer Science, Peking University.
 Currently, I am actively exploring various research directions that interest me at <a href="https://beingbeyond.com/">BeingBeyond</a>, a startup, where I am fortunate to be advised by Prof. <a href="https://z0ngqing.github.io/">Zongqing Lu</a>, where I am also working closely with <a href="https://yhqpkueecs.github.io/">Haoqi Yuan</a> and <a href="https://zhangwp.com/">Wanpeng Zhang</a>.
 Previously, I was a research intern at <a target="_blank" href="https://hughw19.github.io/">PKU EPIC Lab</a> and <a href="http://www.galbot.com/">Galbot</a>, where I was fortunate to be advised by Prof. <a target="_blank" href="https://hughw19.github.io/">He Wang</a>. 
 During my time there, I worked closely with <a target="_blank" href="https://user432.github.io/">Gireesh Nandiraju</a> and <a href="https://42jaylonw.github.io/">Jaylon Wang</a>. <br><br>
