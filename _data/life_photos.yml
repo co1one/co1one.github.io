@@ -1,0 +1,40 @@
+# Dates use YYYY-MM so the carousel can sort them chronologically.
+- date: "2025-11"
+  image: /assets/img/life/2511_haoqi_lu_me_zy.jpg
+  description: "Haoqi Yuan, Zongqing Lu, me and Yu Zhang."
+
+- date: "2025-11"
+  image: /assets/img/life/2511_d1_me_lu.jpg
+  description: "Building D1 with Haoqi Yuan and my Ph.D. advisor, Zongqing Lu."
+
+- date: "2025-07"
+  image: /assets/img/life/2507_me_g_x.jpg
+  description: "Celebrating Chris's master's graduation with Gireesh Nandiraju at 静园."
+
+- date: "2025-05"
+  image: /assets/img/life/2505_me_palbot_bk_xxr.jpg
+  description: "A Champion moment with Börje F. Karlsson, Xinrun Xu, and PalBot."
+
+- date: "2025-05"
+  image: /assets/img/life/2505_me_g_j.jpg
+  description: "A fun moment with my best homies."
+
+- date: "2025-04"
+  image: /assets/img/life/2504_s_dos.jpg
+  description: "A surprise reunion with my first mentor and boss at DH3 after two years."
+
+- date: "2025-01"
+  image: /assets/img/life/2501_me_quadwbg.jpg
+  description: "QuadWBG team at 静园."
+
+- date: "2024-11"
+  image: /assets/img/life/2411_me_epic_galbot.jpg
+  description: "A winter hike with the EPIC and Galbot crew, Prof. He Wang, and his adorable dog."
+
+- date: "2024-05"
+  image: /assets/img/life/2405_me_homies_in_galbot.jpg
+  description: "Me and my best homies."
+
+- date: "2023-08"
+  image: /assets/img/life/2308_me_dos_j_bk.jpg
+  description: "My very first team, with Siwei Dong, Jay, and BK in BAAI."

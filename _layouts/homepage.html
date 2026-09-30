@@ -54,7 +54,19 @@
         <br>
         {% endif %}
         {% if site.wechat %}
-          WeChat: <span>{{ site.wechat }}</span><br>
+        <div class="wechat-contact">
+          <span>WeChat: {{ site.wechat }}</span>
+          <a class="wechat-contact__qr"
+             href="{{ '/assets/img/info/vx_qrcode.jpg' | relative_url }}"
+             target="_blank"
+             rel="noopener noreferrer"
+             title="Open WeChat QR code">
+            <img src="{{ '/assets/img/info/vx_qrcode.jpg' | relative_url }}"
+                 alt="WeChat QR code"
+                 loading="lazy"
+                 decoding="async">
+          </a>
+        </div>
         {% endif %}
         {% if site.email %}
         <email>{{ site.email }}</email><br>

@@ -19,6 +19,8 @@ It would be my great honor to treat you to a coffee☕ or a beer🍻 for an enga
 [//]: # ()
 [//]: # (I am passionate about exploring innovative technologies in **robotics**, artificial intelligence, and healthcare, particularly those with potential for **real-world implementation** and **societal benefit**.)
 
+{% include life-carousel.html %}
+
 ## Openings
 
 I am <span style="color:red;">hiring</span> self-motivated students for internships in mobile dexterous manipulation and embedded systems, hosted at <span style="color:1DA1F2;">BeingBeyond</span>. If you're interested, especially as an international student, feel free to contact me!

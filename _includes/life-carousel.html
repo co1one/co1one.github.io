@@ -1,0 +1,57 @@
+{% assign life_photos = site.data.life_photos | sort: "date" | reverse %}
+{% if life_photos.size > 0 %}
+<div class="life-carousel" data-life-carousel role="region" aria-labelledby="life-carousel-title">
+  <div class="life-carousel__header">
+    <h2 id="life-carousel-title">Moments along the way</h2>
+    <div class="life-carousel__controls" aria-label="Moments along the way controls">
+      <button class="life-carousel__button" type="button" data-life-carousel-prev aria-label="Previous snapshot" aria-controls="life-carousel-viewport">&#8592;</button>
+      <button class="life-carousel__button" type="button" data-life-carousel-next aria-label="Next snapshot" aria-controls="life-carousel-viewport">&#8594;</button>
+    </div>
+  </div>
+
+  <div
+    id="life-carousel-viewport"
+    class="life-carousel__viewport"
+    data-life-carousel-viewport
+    role="region"
+    aria-label="Moments along the way carousel; use the arrow keys or swipe to browse"
+    tabindex="0">
+    <div class="life-carousel__track">
+      {% for photo in life_photos %}
+      <article class="life-carousel__item">
+        <figure>
+          <div class="life-carousel__image-frame">
+            <img
+              class="life-carousel__image"
+              src="{{ photo.image | relative_url }}"
+              alt="{{ photo.description | escape }}"
+              loading="lazy"
+              decoding="async">
+          </div>
+          <figcaption class="life-carousel__caption">
+            <time datetime="{{ photo.date }}">{{ photo.date }}</time>
+            <p>{{ photo.description }}</p>
+          </figcaption>
+        </figure>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="life-carousel__navigation">
+    <label class="life-carousel__sr-only" for="life-carousel-scrollbar">Browse moments along the way</label>
+    <input
+      id="life-carousel-scrollbar"
+      class="life-carousel__scrollbar"
+      data-life-carousel-scrollbar
+      type="range"
+      min="0"
+      max="1000"
+      step="1"
+      value="0"
+      aria-label="Carousel position">
+    <span class="life-carousel__position" data-life-carousel-position aria-hidden="true">1 / {{ life_photos.size }}</span>
+  </div>
+</div>
+<script src="{{ '/assets/js/life-carousel.js' | relative_url }}" defer></script>
+{% endif %}
