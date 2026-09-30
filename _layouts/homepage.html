@@ -112,66 +112,18 @@
       <!-- Visitor Map -->
       <div id="visitor-map" class="visitor-map" role="group" aria-label="Visitor statistics">
         <div class="visitor-map__widget">
-          <script async src="https://feed-pulse.com/api/embed/visitor-globe.js?site_id=330a3c37-556b-4bb8-945a-5ddd45d09523&map=flat&sz=sm&w=560&h=320&theme=ivory&speed=normal"></script>
+          <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=CC8tH9p3WgZx0Hm3j9sFwT1RfUzHqljQhdXzjzUfAQo&cl=ffffff&w=a"></script>
+          <noscript>
+            <a href="https://mapmyvisitors.com/web/1c8ke" title="Visit tracker">
+              <img src="https://mapmyvisitors.com/map.png?d=CC8tH9p3WgZx0Hm3j9sFwT1RfUzHqljQhdXzjzUfAQo&cl=ffffff" alt="Visitor map">
+            </a>
+          </noscript>
         </div>
-        <div class="visitor-monthly-count" aria-live="polite">
-          <span class="visitor-monthly-count__label">Last 30 days</span>
-          <span id="visitor-monthly-count">Loading…</span>
+        <div class="visitor-map__stats">
+          <a href="https://mapmyvisitors.com/web/1c8ke" target="_blank" rel="noopener noreferrer">
+            View detailed visitor statistics
+          </a>
         </div>
-        <script>
-          (function () {
-            var siteId = "330a3c37-556b-4bb8-945a-5ddd45d09523";
-            var apiOrigin = "https://feed-pulse.com";
-            var sessionKey = "_feedpulse_session_id";
-            var sessionId;
-
-            try {
-              sessionId = sessionStorage.getItem(sessionKey);
-              if (!sessionId) {
-                sessionId = Math.random().toString(36).slice(2) + Date.now().toString(36);
-                sessionStorage.setItem(sessionKey, sessionId);
-              }
-            } catch (error) {
-              sessionId = Math.random().toString(36).slice(2) + Date.now().toString(36);
-            }
-
-            // FeedPulse's globe endpoint only reads visitor locations. Send the
-            // visit separately so the 30-day total and the map can populate.
-            fetch(apiOrigin + "/api/track/" + siteId, {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({
-                referrer: document.referrer || "direct",
-                landing_page: window.location.pathname || "/",
-                title: document.title || "",
-                host: window.location.host,
-                session_id: sessionId
-              }),
-              keepalive: true,
-              credentials: "omit"
-            }).catch(function () {});
-
-            window.setTimeout(function () {
-              fetch(apiOrigin + "/api/public/site/co1one.github.io", {
-                credentials: "omit",
-                cache: "no-store"
-              })
-                .then(function (response) {
-                  if (!response.ok) throw new Error("Visitor stats unavailable");
-                  return response.json();
-                })
-                .then(function (stats) {
-                  var count = Number(stats.total_visits) || 0;
-                  var target = document.getElementById("visitor-monthly-count");
-                  if (target) target.textContent = count + " visits";
-                })
-                .catch(function () {
-                  var target = document.getElementById("visitor-monthly-count");
-                  if (target) target.textContent = "Unavailable";
-                });
-            }, 500);
-          }());
-        </script>
       </div>
 
       {% if site.enable_footnote %}

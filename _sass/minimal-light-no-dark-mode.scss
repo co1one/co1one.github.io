@@ -540,73 +540,22 @@ footer {
   overflow: hidden;
 }
 
-.visitor-map [data-fp-globe] {
-  display: block !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  box-sizing: border-box !important;
-  padding: 0 !important;
-  border-radius: 0 !important;
-  background: transparent !important;
-  color: #043361 !important;
-  font-family: inherit !important;
-}
-
-.visitor-map [data-fp-globe] canvas {
-  display: block !important;
-  width: 100% !important;
-  max-width: 560px;
-  height: auto !important;
-  margin: 0 auto;
-  border-radius: 0 !important;
-}
-
-.visitor-map [data-fp-globe] > div {
-  margin-top: 12px !important;
-  color: #043361 !important;
-  font-family: inherit !important;
-  font-size: 12px !important;
-  font-weight: 500 !important;
-  line-height: 1.4 !important;
-  letter-spacing: .04em !important;
-  text-transform: none !important;
-}
-
-.visitor-map [data-fp-globe] > a {
-  display: block !important;
-  margin-top: 4px !important;
-  color: #777 !important;
-  font-family: inherit !important;
-  font-size: 11px !important;
-  line-height: 1.4 !important;
-  letter-spacing: .02em !important;
-  text-transform: none !important;
-}
-
-.visitor-monthly-count {
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-  gap: 8px;
-  margin: 14px 0 0 !important;
+.visitor-map__stats {
+  margin: 14px 0 0;
   padding-top: 12px;
   border-top: 1px solid #e5e5e5;
-  color: #595959;
-  font-family: inherit;
-  font-size: 14px;
+  color: #777;
+  font-size: 12px;
   line-height: 1.4;
 }
 
-.visitor-monthly-count__label {
+.visitor-map__stats a {
   color: #043361;
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: .06em;
-  text-transform: uppercase;
+  text-decoration: none;
 }
 
-#visitor-monthly-count {
-  font-variant-numeric: tabular-nums;
+.visitor-map__stats a:hover {
+  text-decoration: underline;
 }
 
 @media print, screen and (max-width: 480px) {
@@ -615,9 +564,7 @@ footer {
     padding: 14px 10px 12px;
   }
 
-  .visitor-monthly-count {
-    flex-direction: column;
-    align-items: center;
-    gap: 2px;
+  .visitor-map__stats {
+    margin-top: 12px;
   }
 }
