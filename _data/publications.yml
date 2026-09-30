@@ -1,14 +1,50 @@
 main:
 
+  - title: "RealDexUMI: A Wearable Universal Manipulation Interface for Dexterous Robot Learning"
+    authors:  <strong>Chaoyi Xu</strong>, Yixuan Jiang, Jiahui Huan, Yuhui Fu, Haoyu Zhou, Weitian Yuan, Jiayi Yu, Wanpeng Zhang, Haoqi Yuan, Zongqing Lu†
+    conference_short: CoRL 2026
+    pdf: https://arxiv.org/pdf/2606.06033
+    page: https://research.beingbeyond.com/realdexumi
+#    code: https://github.com/BeingBeyond/Being-H
+    image: ./assets/img/publications/realdexumi.png
+    notes: CoRL 2026
+
+  - title: "Being-h0. 7: A latent world-action model from egocentric videos"
+    authors:  Hao Luo, Wanpeng Zhang, Yicheng Feng, Sipeng Zheng, Haiweng Xu, <strong>Chaoyi Xu</strong>, Ziheng Xi, Yuhui Fu, Zongqing Lu†
+    conference_short: NeurIPS 2026
+    pdf: https://arxiv.org/pdf/2605.00078
+    page: https://research.beingbeyond.com/being-h07
+    code: https://github.com/BeingBeyond/Being-H
+    image: ./assets/img/publications/h07.png
+    notes: NeurIPS 2026
+
+  - title: "HDFlow: Hierarchical Diffusion-Flow Planning for Long-horizon Tasks"
+    authors: Nandiraju Gireesh, Yuanliang Ju, <strong>Chaoyi Xu</strong>, Weiheng Liu, Yuxuan Wan, He Wang†
+    conference_short: ICML 2026
+    pdf: https://arxiv.org/pdf/2605.04525
+    page: https://hdflow-page.github.io/
+    code: https://github.com/user432/hdflow
+    image: ./assets/img/publications/hdflow.png
+    notes: ICML 2026 Spotlight Top 2%
+
+  - title: "X-DiffVLA: X-Embodied Diffusion Action Heads for Vision-Language-Action Models"
+    authors:  Boyu Li, <strong>Chaoyi Xu</strong>, Haoqi Yuan, Xinrun Xu, Börje F Karlsson, Haoran Li, Zongqing Lu, Dongbin Zhao†
+    conference_short: RSS 2026
+    pdf: https://www.roboticsproceedings.org/rss22/p081.pdf
+#    page: https://research.beingbeyond.com/being-h05
+#    code: https://github.com/BeingBeyond/Being-H
+    image: ./assets/img/publications/xdiff.png
+    notes: RSS 2026
+
   - title: "Being-H0.5: Scaling Human-Centric Robot Learning for Cross-Embodiment Generalization"
     authors:  Hao Luo*, Ye Wang*, Wanpeng Zhang*, Sipeng Zheng*, Ziheng Xi, <strong>Chaoyi Xu</strong>, Haiweng Xu, Haoqi Yuan, Chi Zhang, Yiqing Wang, Yicheng Feng, Zongqing Lu†
-    conference_short: arXiv 2026
+    conference_short: CoRL 2026
     #    conference: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems
     pdf: https://arxiv.org/pdf/2601.12993
     page: https://research.beingbeyond.com/being-h05
     code: https://github.com/BeingBeyond/Being-H
     image: ./assets/img/publications/beingh05_arch_nar.webp
-#    notes: arxiv 2026
+    notes: CoRL 2026
 
   - title: "UniTacHand: Unified Spatio-Tactile Representation for Human to Robotic Hand Skill Transfer"
     authors:  Chi Zhang*, Penglin Cai*, Haoqi Yuan, <strong>Chaoyi Xu</strong>, Zongqing Lu†
@@ -42,13 +78,13 @@ main:
 
   - title: "Being-H0: Vision-Language-Action Pretraining from Large-Scale Human Videos"
     authors: Hao Luo*, Yicheng Feng*, Wanpeng Zhang*, Sipeng Zheng*, Ye Wang, Haoqi Yuan, Jiazheng Liu, <strong>Chaoyi Xu</strong>, Qin Jin, Zongqing Lu†
-    conference_short: arXiv 2025
+    conference_short: ICML 2025
     #    conference: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems
     pdf: https://arxiv.org/pdf/2507.15597
     page: https://beingbeyond.github.io/Being-H0/
     code: https://github.com/BeingBeyond/Being-H0
     image: ./assets/img/publications/beingh0.png
-#    notes: RSS 2025
+    notes: ICML 2026
 
   - title: "RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning"
     authors: Haoran Geng*, Feishi Wang*, Songlin Wei*, Yuyang Li*, Bangjun Wang*, Boshi An*, Charlie Tianyue Cheng*, Haozhe Lou, Peihao Li, Yen-Jen Wang, Yutong Liang, Dylan Goetting, <strong>Chaoyi Xu</strong>, Haozhe Chen, Yuxi Qian, Yiran Geng, Jiageng Mao, Weikang Wan, Mingtong Zhang, Jiangran Lyu, Siheng Zhao, Jiazhao Zhang, Jialiang Zhang, Chengyang Zhao, Haoran Lu, Yufei Ding, Ran Gong, Yuran Wang, Yuxuan Kuang, Ruihai Wu, Baoxiong Jia, Carlo Sferrazza, Hao Dong, Siyuan Huang, Koushil Sreenath, Yue Wang†, Jitendra Malik†, Pieter Abbeel†
