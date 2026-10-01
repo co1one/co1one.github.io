@@ -5,12 +5,14 @@ main:
     overview: I built RealDexUMI to collect more dexterous manipulation data and enable zero-gap transfer across different robot bodies using the U1 end-effector.
     image: ./assets/img/projects/dexumi.gif
     notes: "<a href='https://www.youtube.com/watch?v=CkSxiHJFJw8' target='_blank'>Watch full video on YouTube</a>"
+    highlight: true
 
   - title: "BeingBeyond D1"
     time: 2025
     overview: I built the world’s first desktop robotic system combining dexterous hand, robotic arm, and active vision — built for seamless integration with advanced embodied AI algorithms.
     image: ./assets/img/projects/d1_teleop.gif
     notes: "<a href='https://youtu.be/XRCcJAU84yA' target='_blank'>Watch full video on YouTube</a>"
+    highlight: true
 
   - title: "Teleoperation with Unitree G1"
     time: 2025
@@ -23,6 +25,7 @@ main:
     overview: Built in just one week during a hackathon, this is my first fully self-developed desktop dual-arm companion robot. It supports grasping, navigation, visual tracking, and a full speech pipeline (ASR & TTS), powered by an emotionally aware agent framework.
     image: ./assets/img/projects/palbot.gif
     notes:
+    highlight: true
 
   - title: "Teleoperation with GELLO"
     time: 2025

@@ -5,12 +5,12 @@
 
     {% for link in site.data.projects.main %}
 
-    <li>
+    <li{% if link.highlight %} class="publication-highlight"{% endif %}>
       <div class="pub-row">
         <!-- 项目图片和缩略图 -->
         <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
           {% if link.image %}
-          <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 350px; height: 100%;">
+          <img src="{{ link.image }}" class="teaser img-fluid z-depth-1">
           {% endif %}
         </div>
 

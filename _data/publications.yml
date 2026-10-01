@@ -8,6 +8,16 @@ main:
 #    code: https://github.com/BeingBeyond/Being-H
     image: ./assets/img/publications/realdexumi.png
     notes: CoRL 2026
+    highlight: true
+
+  - title: "Transport Discrepancy as a Reliability Signal for Vision-Language-Action Models"
+    authors: Wanpeng Zhang, Ye Wang, Hao Luo, Haoqi Yuan, Yicheng Feng, <strong>Chaoyi Xu</strong>, Sipeng Zheng, Qin Jin, Zongqing Lu†
+    conference_short: ECCV 2026
+    pdf: https://arxiv.org/pdf/2512.01715
+    page: https://research.beingbeyond.com/dig
+    code: https://github.com/BeingBeyond/DiG
+    image: ./assets/img/publications/digflow.png
+    notes: ECCV 2026
 
   - title: "Being-h0. 7: A latent world-action model from egocentric videos"
     authors:  Hao Luo, Wanpeng Zhang, Yicheng Feng, Sipeng Zheng, Haiweng Xu, <strong>Chaoyi Xu</strong>, Ziheng Xi, Yuhui Fu, Zongqing Lu†
@@ -17,6 +27,7 @@ main:
     code: https://github.com/BeingBeyond/Being-H
     image: ./assets/img/publications/h07.png
     notes: NeurIPS 2026
+    highlight: true
 
   - title: "HDFlow: Hierarchical Diffusion-Flow Planning for Long-horizon Tasks"
     authors: Nandiraju Gireesh, Yuanliang Ju, <strong>Chaoyi Xu</strong>, Weiheng Liu, Yuxuan Wan, He Wang†
@@ -45,6 +56,7 @@ main:
     code: https://github.com/BeingBeyond/Being-H
     image: ./assets/img/publications/beingh05_arch_nar.webp
     notes: CoRL 2026
+    highlight: true
 
   - title: "UniTacHand: Unified Spatio-Tactile Representation for Human to Robotic Hand Skill Transfer"
     authors:  Chi Zhang*, Penglin Cai*, Haoqi Yuan, <strong>Chaoyi Xu</strong>, Zongqing Lu†
@@ -55,6 +67,16 @@ main:
     code: https://github.com/BeingBeyond/UniTacHand
     image: ./assets/img/publications/unitachandpipeline.jpg
 #    notes: arixv 2026
+
+  - title: "DemoFunGrasp: Universal Dexterous Functional Grasping via Demonstration-Editing Reinforcement Learning"
+    authors: Chuan Mao, Haoqi Yuan, Ziye Huang, <strong>Chaoyi Xu</strong>, Kai Ma, Zongqing Lu†
+    conference_short: CVPR 2026
+    #    conference: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    pdf: https://arxiv.org/pdf/2512.13380
+    page: https://beingbeyond.github.io/DemoFunGrasp/
+    code: https://github.com/BeingBeyond/DemoFunGrasp
+    image: ./assets/img/publications/demofun.png
+    notes: CVPR 2026
 
   - title: "DemoGrasp: Universal Dexterous Grasping from a Single Demonstration"
     authors:  Haoqi Yuan*, Ziye Huang*, Ye Wang, Chuan Mao, <strong>Chaoyi Xu</strong>, Zongqing Lu†
@@ -85,6 +107,7 @@ main:
     code: https://github.com/BeingBeyond/Being-H0
     image: ./assets/img/publications/beingh0.png
     notes: ICML 2026
+    highlight: true
 
   - title: "RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning"
     authors: Haoran Geng*, Feishi Wang*, Songlin Wei*, Yuyang Li*, Bangjun Wang*, Boshi An*, Charlie Tianyue Cheng*, Haozhe Lou, Peihao Li, Yen-Jen Wang, Yutong Liang, Dylan Goetting, <strong>Chaoyi Xu</strong>, Haozhe Chen, Yuxi Qian, Yiran Geng, Jiageng Mao, Weikang Wan, Mingtong Zhang, Jiangran Lyu, Siheng Zhao, Jiazhao Zhang, Jialiang Zhang, Chengyang Zhao, Haoran Lu, Yufei Ding, Ran Gong, Yuran Wang, Yuxuan Kuang, Ruihai Wu, Baoxiong Jia, Carlo Sferrazza, Hao Dong, Siyuan Huang, Koushil Sreenath, Yue Wang†, Jitendra Malik†, Pieter Abbeel†
@@ -128,6 +151,7 @@ main:
     code: https://github.com/javokhirajabov/quadwbg
     image: ./assets/img/publications/wholebody.png
     notes: ICRA 2025
+    highlight: true
 
 
   - title: "Open6DOR: Benchmarking Open-instruction 6-DoF Object Rearrangement and A VLM-based Approach"
