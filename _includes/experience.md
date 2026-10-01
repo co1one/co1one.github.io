@@ -23,7 +23,8 @@
                 <strong>BAAI</strong><br>
                 2025.2 - 2025.5<br>
                 <em>Research topic: Manipulation</em><br>
-                Advised by: <a href="https://z0ngqing.github.io/">Zongqing Lu</a>
+                Advised by: <a href="https://tellarin.com/borje/">Börje F. Karlsson</a>, 
+                            <a href="https://z0ngqing.github.io/">Zongqing Lu</a>
             </div>
         </div>
     </div>
