@@ -113,6 +113,11 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
     height: auto;
   }
 
+  .publications ol.bibliography li .col-sm-9 {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+
   .publications ol.bibliography li .teaser {
     width: 100%;
     max-width: 100%;
